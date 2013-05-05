@@ -1,20 +1,15 @@
+/*Larger*/
 @media screen and (min-width:981px) {
   .basil {
     font-size: 1.1em;
     line-height: 1.5;
   }
-  .basil p {
-    font-size: ;
-  }
 }
-
+/*Smaller*/
 @media screen and (max-width:981px) {
   .basil {
     font-size: 2em;
     line-height: 1.5;
-  }
-  .basil p {
-    font-size: ;
   }
 }
 
@@ -27,8 +22,8 @@
   .basil p {
     font-size: 1.2em;
   }
-
 }
+
 /*iPhone 5*/
 @media screen and (device-aspect-ratio: 40/71) {
   .basil {
@@ -38,8 +33,8 @@
   .basil p {
     font-size: 1.2em;
   }
-
 }
+
 /*iPad*/
 @media screen and (device-aspect-ratio: 3/4) {
   .basil {
@@ -49,5 +44,4 @@
   .basil p {
     font-size: 1.2em;
   }
-
 }
